@@ -38,3 +38,15 @@
 .scan-visual .scan-grid,.scan-visual .scan-beam,.scan-visual .scan-tag,.scan-visual .scan-live{z-index:2}
 .scan-visual .drone-illustration,.scan-visual .cnc-illustration{display:none}
 .scan-visual .scan-live{background:#092C5Caa;padding:5px 7px;border-radius:3px}
+
+
+/* Detect layout: explanation and CNC case on the left; video evidence on the right */
+.workflow-body{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}
+.workflow-body .workflow-copy{grid-column:1;grid-row:1}
+.workflow-body .record{grid-column:1;grid-row:2;margin-top:28px}
+.workflow-body .detect-evidence{grid-column:2;grid-row:1 / span 2;display:block;margin:0;align-self:start}
+.workflow-body .detect-evidence .scan-card{display:block}
+.workflow-body .detect-evidence .scan-visual{min-height:290px}
+.workflow-body .detect-evidence .scan-copy{padding:22px 20px}
+.workflow-body .detect-evidence .software-card{margin-top:18px}
+@media(max-width:900px){.workflow-body{grid-template-columns:1fr}.workflow-body .workflow-copy,.workflow-body .detect-evidence,.workflow-body .record{grid-column:1;grid-row:auto}.workflow-body .detect-evidence{margin-top:28px}.workflow-body .record{margin-top:28px}}
