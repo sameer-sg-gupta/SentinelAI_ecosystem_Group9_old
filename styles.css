@@ -68,3 +68,7 @@
 
 /* Keep the Detect column focused on the uploaded video. */
 #detect-evidence .software-card{display:none!important}
+
+
+/* Hidden Detect panel must override the two-column display rule. */
+.workflow-body .detect-evidence[hidden]{display:none!important}
