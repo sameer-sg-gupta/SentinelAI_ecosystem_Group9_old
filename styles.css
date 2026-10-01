@@ -64,3 +64,7 @@
 .workflow-body .step-controls{grid-column:1 / -1;grid-row:4;margin-top:30px}
 .workflow-body .software-card{display:none}
 @media(max-width:900px){.workflow-body{grid-template-columns:1fr;column-gap:0}.workflow-body .workflow-owner,.workflow-body .workflow-copy,.workflow-body .detect-evidence,.workflow-body .record,.workflow-body .step-controls{grid-column:1;grid-row:auto}.workflow-body .detect-evidence{margin-top:28px}.workflow-body .record{margin-top:28px}.workflow-body .step-controls{margin-top:28px}}
+
+
+/* Keep the Detect column focused on the uploaded video. */
+#detect-evidence .software-card{display:none!important}
