@@ -1,0 +1,35 @@
+CUSTOMER REVIEW — SENTINELAI LANDING PAGE V2
+
+1. What is this, and is it for me?
+V1 problem: generic Prevention headline and a newly invented green brand.
+V2: deck-based shop-floor-risk proposition, original logo, industrial
+insurer/manufacturer focus, Arial and original blue/cyan identity.
+
+2. Why should an insurer care enough to pay?
+V1 problem: collaboration was more visible than insurer value.
+V2: what changed between inspections, site-specific evidence and targeted
+preventive support lead the insurer perspective. No unproven savings.
+
+3. Why should a manufacturer participate?
+V2: guidance, peer comparisons and documented prevention; funding model
+clarified without hiding implementation work or cost.
+
+4. Is the technology understandable?
+V2: concrete records/video inputs, a guided factory example, a named owner
+and a next action for each finding. Engineering sign-off remains explicit.
+
+5. Does this match the pitch?
+V2: original five-step model restored. Verification independence explained.
+Pilot deliverables and future premium credits are distinguished clearly.
+
+6. What do I do next?
+V2: explore pilot fit, then explicitly prepare a brief. No false submission.
+A real contact route remains necessary before public launch.
+
+7. Can I trust the proof?
+No invented customers, signed partnerships, savings or safety outcomes.
+Demo data and generated people imagery stay labelled.
+
+Validation: exact original asset hash, HTML references, JavaScript syntax,
+state changes in a simulated DOM, direct 3D and top-down rendering.
+Full browser visual testing is still unavailable in this environment.
