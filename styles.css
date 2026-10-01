@@ -30,3 +30,11 @@
 .software-head{display:flex;align-items:center;gap:8px;padding:13px 15px;border-bottom:1px solid #E6ECF4;color:#0A4595;font-size:12px}.software-mark{font-size:18px;color:#00A5DC}.software-head .demo-label{margin-left:auto}.software-body{padding:11px 14px}.software-row{display:grid;grid-template-columns:25px 1fr auto;gap:8px;align-items:center;padding:12px 0;border-bottom:1px solid #E9EFF6}.software-icon{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:#EAF4FA;color:#0A4595}.software-row strong{display:block;font-size:11px;color:#0A4595}.software-row small{display:block;font-size:9px;color:#6A8099;margin-top:2px}.software-row .status{font-size:8px}.software-foot{display:flex;align-items:center;gap:7px;padding:13px 0 2px;font-size:9px;color:#54718E}.software-foot>span{width:6px;height:6px;background:#54A47A;border-radius:50%}
 @keyframes drone-hover{0%,100%{transform:translate(0,0) rotate(-10deg)}50%{transform:translate(8px,6px) rotate(-6deg)}}@keyframes beam-pulse{0%,100%{opacity:.35;transform:rotate(15deg) scaleY(.82)}50%{opacity:1;transform:rotate(15deg) scaleY(1.08)}}@keyframes pulse-dot{50%{opacity:.3}}
 @media(max-width:900px){.detect-evidence{grid-template-columns:1fr}.scan-card{grid-template-columns:1fr}.scan-visual{min-height:180px}.scan-copy{padding:18px}.detect-evidence{margin-top:26px}}@media(prefers-reduced-motion:reduce){.drone-illustration,.scan-beam,.scan-live em{animation:none}}
+
+
+/* Uploaded drone footage in the Detect evidence panel */
+.scan-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#0A2D5A;opacity:.88}
+.scan-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,31,67,.35),rgba(5,31,67,.08) 48%,rgba(5,31,67,.58));pointer-events:none}
+.scan-visual .scan-grid,.scan-visual .scan-beam,.scan-visual .scan-tag,.scan-visual .scan-live{z-index:2}
+.scan-visual .drone-illustration,.scan-visual .cnc-illustration{display:none}
+.scan-visual .scan-live{background:#092C5Caa;padding:5px 7px;border-radius:3px}
